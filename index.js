@@ -9,10 +9,10 @@ saludo = document.querySelector(".sigue");
 saludo.innerHTML = "Bienvendido " + nombre;
 
 edad = prompt("¿Cual es su edad?");
-if(edad <18){acceso= alert("Prohibido")}
-else if (edad>= 18){acceso= alert("Permitido");oscuro = confirm ("¿Desea usted utilizar el modo oscuro?")
+if(edad <18){acceso= alert("Prohibido su acceso")}
+else if (edad>= 18){acceso= alert("Permitido su acceso");oscuro = confirm ("¿Desea usted utilizar el modo oscuro?")
 cuerpo = document.querySelector(".cuerpo");
-if (osucro = true) cuerpo.style.backgroundColor = "dimgray"; cuerpo.style.color = "white";
+if (oscuro == true) {cuerpo.style.backgroundColor = "dimgray"; cuerpo.style.color = "white";}
 
 diaDeSemana = ("Domingo")
 if (diaDeSemana = "Domingo"){alert("¡Hoy es día de descanso!")} }
